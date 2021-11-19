@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@1,300&family=Poppins:wght@200&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;}
 .htext {
     position: absolute;
     bottom: 10px;
@@ -22,7 +25,7 @@ body {
 } */
 
 nav{
-    background-color: #2b2b26;
+    background-color: #2b2b26 ;
     width: 55%;
     border-bottom-right-radius: 50px;
 }
@@ -44,7 +47,7 @@ footer{
     margin-top: 80px;
     padding-bottom: 20px;
 }
-footer a img:hover{
+a img:hover{
     transform: scale(1.05) translateY(-15px);
     transition: 0.7s;
 }
