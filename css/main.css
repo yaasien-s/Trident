@@ -68,8 +68,8 @@ h3{
         width: 100%;
         border-radius: 0%;
     }
-    footer a img{
-        display: none;
+    .linkedin{
+        display: none !important;
     }
 }
 
