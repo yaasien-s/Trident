@@ -33,6 +33,11 @@ nav a:hover{
     color: rgb(149, 186, 187) !important;
 }
 
+span.navbar-toggler-icon{
+    background-color: #4d86a0;
+    border-radius: 100px;
+}
+
 
 footer{
     color: #4d86a0;
