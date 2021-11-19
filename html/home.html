@@ -486,9 +486,22 @@
     <!-- START OF CONTACT PAGE -->
     <section id="contact">
         <h3 class="display-5 my-5 mx-5 pt-5"><u>Contact me:</u></h3>
- 
-  
-        <form action="https://formspree.io/f/xwkagzkg" method="post"></form>
+        <div class="conform">
+            <form action="https://formspree.io/f/xwkagzkg" method="post">
+
+                <h5 for="fname" class="ftext mb-1">First Name</h5>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                <h5 for="lname" class="ftext mb-1">Last Name</h5>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                <h5 for="subject" class="ftext mb-1">Subject</h5>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                <input type="submit" value="Submit">
+
+            </form>
+        </div>
     </section>
     <!-- END OF CONTACT PAGE -->
     <footer class="text-center mt-4">
