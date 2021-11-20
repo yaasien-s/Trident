@@ -125,3 +125,9 @@
   font-weight: 400;
   font-size: 14px;
 }
+
+@media (max-width:900px) {
+  .coll{
+    max-width: 300px;
+  }
+}

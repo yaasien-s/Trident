@@ -18,7 +18,7 @@
 
 .main-timeline .timeline {
     margin-bottom: 40px;
-    position: relative
+    position: relative;
 }
 
 .main-timeline .timeline:after {
@@ -185,9 +185,6 @@
 }
 
 @media only screen and (max-width: 991px) {
-    .main-timeline{
-        padding-right: 50px;
-    }
     .main-timeline .date-content {
         margin-top: 35px
     }
