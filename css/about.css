@@ -18,10 +18,11 @@ p.biography{
 
 
 .prf-img{
-    float: right;
+    width: 250px;
+    /* float: right; */
     border-radius: 100%;
-    margin-right: 250px;
-    margin-top: 0px;
+    /* margin-right: 250px; */
+    margin-top: 40px;
     box-shadow: white;
 }
 

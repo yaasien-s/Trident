@@ -1,6 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@1,300&family=Poppins:wght@200&display=swap');
 *{
     font-family: 'Poppins', sans-serif;}
+
+    
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 .htext {
     position: absolute;
     bottom: 10px;
@@ -20,10 +33,6 @@ body {
     mix-blend-mode: overlay;
 }
 
-/* ul li a{
-    color: #4d86a0 !important;
-} */
-
 nav{
     background-color: #2b2b26 ;
     width: 55%;
@@ -39,10 +48,15 @@ nav a:hover{
 }
 
 span.navbar-toggler-icon{
-    background-color: #568259;
-    border-radius: 100px;
+    /* position: relative; */
+    width: 30px;
+    height: 35px;
+    background: url(https://i.ibb.co/HrfVRcx/menu.png);
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: center;
+    cursor: pointer;
 }
-
 
 
 
@@ -72,9 +86,7 @@ h3{
         width: 100%;
         border-radius: 0%;
     }
-    .linkedin{
-        display: none !important;
-    }
+
 }
 
 
