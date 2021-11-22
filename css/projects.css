@@ -4,7 +4,7 @@
 }
 
 .card{
-    border: 2px solid #4d86a0 !important;
+    border: 2px solid #568259 !important;
     border-radius: 7px !important;
 }
 
@@ -15,7 +15,7 @@
 }
 
 .card-title{
-    color: #4d86a0;
+    color: #568259;
 }
 
 .card-text{
@@ -23,19 +23,19 @@
 }
 
 .card a{
-    background-color: #4d86a0;
-    border: 1px solid #4d86a0;
+    background-color: #568259;
+    border: 1px solid #568259;
     border-radius: 100px;
 }
 
 .card a:hover{
     background-color: #2b2b26;
-    border: 1px solid #4d86a0;
-    color: #4d86a0;
+    border: 1px solid #568259;
+    color: #568259;
 }
 
 .MPH3{
-    color: #4d86a0;
+    color: #568259;
 }
 
 @media (max-width: 900px){

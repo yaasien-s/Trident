@@ -30,10 +30,12 @@ nav{
     border-bottom-right-radius: 50px;
 }
 nav a{
-    color: #4d86a0 !important;
+    color: #568259 !important;
 }
 nav a:hover{
-    color: rgb(149, 186, 187) !important;
+    color: #a2e2a7 !important;
+    letter-spacing: 2px;
+    transition: 0.4s;
 }
 
 span.navbar-toggler-icon{
@@ -45,7 +47,7 @@ span.navbar-toggler-icon{
 
 
 footer{
-    color: #4d86a0;
+    color: #568259;
     margin-top: 80px;
     padding-bottom: 20px;
 }
@@ -54,7 +56,7 @@ footer{
     transition: 0.7s;
 }
 h3{
-    color: #4d86a0;
+    color: #568259;
     font-weight: 300 !important;
 }
 
