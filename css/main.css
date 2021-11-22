@@ -58,7 +58,9 @@ span.navbar-toggler-icon{
     cursor: pointer;
 }
 
-
+.licons{
+    margin-left: 30px;
+}
 
 footer{
     color: #568259;
@@ -86,7 +88,9 @@ h3{
         width: 100%;
         border-radius: 0%;
     }
-
+    .licons{
+        margin-left: 0%;
+    }
 }
 
 
