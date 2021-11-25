@@ -41,7 +41,7 @@ input[type=text], select, textarea {
   }
   @media (max-width:900px) {
       .conform{
-          width: 78%;
+          width: 70%;
       }
       #contact h3{
         padding-left: 0%;

@@ -42,8 +42,9 @@
     .crds{
         display: grid;
         /* margin-right: 0% !important; */
+        overflow: hidden;
     }
     .card{
-        max-width: 250px;
+        max-width: 230px;
     }
 }

@@ -24,6 +24,7 @@ p.biography{
     /* margin-right: 250px; */
     margin-top: 40px;
     box-shadow: white;
+    margin-left: 130px;
 }
 
 .icn{
@@ -45,6 +46,8 @@ p.biography{
     .prf-img{
         margin-top: 50px;
         margin-bottom: 50px;
+        margin-left: 0%;
+        overflow: hidden;
     } 
     .icn{
         display: grid;
