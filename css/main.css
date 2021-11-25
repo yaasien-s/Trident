@@ -76,12 +76,23 @@ h3{
     font-weight: 300 !important;
 }
 
+#landtext{
+    margin-bottom: 22%;
+}
+
+#landtext span{
+    font-size: 45px;
+}
+
 
 
 
 @media (max-width: 900px) {
     .bg-image{
-        background-image: none;
+        /* background-image: none; */
+        background-size: cover;
+        background-position: center;
+
     }
     nav{
         background-color: #2b2b26;
@@ -90,6 +101,13 @@ h3{
     }
     .licons{
         margin-left: 0%;
+    }
+    #landtext{
+        margin-bottom: 0%;
+    }
+    
+    #landtext span{
+        font-size: 33px;
     }
 }
 
