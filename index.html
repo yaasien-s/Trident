@@ -77,41 +77,32 @@
     <!-- START OF ABOUT PAGE -->
     <section id="about">
         <div class="">
-            <h3 class="display-5 mb-5 pt-5 text-center">About</h3>
             <div class="about-info">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-md-6 pt-4">
                             <img src="/images/profile_edited.jpg" alt="profile picture" class="prf-img">
                         </div>
                         <div class="col-md-6">
-                            <p class="text-light my-4 pt-5 px-5 about-p">
-                                Full name: Muhammad Yaasien Salaam
-                            </p>
-                            <p class="text-light my-4 px-5 about-p">
-                                Date of birth: 11/05/2001
-                            </p>
-                            <p class="text-light my-4 px-5 about-p">
-                                Gender: Male
-                            </p>
-                            <p class="text-light my-4 px-5 about-p">
-                                Location: Cape Town, Western Cape
-                            </p>
-                            <!-- <br>
-                        <li class="text-light">
-                            Cell Phone number: 0615053706
-                        </li> -->
-                            <p class="text-light my-4 px-5 about-p">
-                                Email: yaasiensalaam@gmail.com
-                            </p>
-                            <br>
-                            <!-- <li class="text-light">
-                            GitHub: github.com/yaasien-s
-                        </li>
-                        <br>
-                        <li class="text-light">
-                            LinkedIn: www.linkedin.com/in/yaasien-s-4587aa133/
-                        </li> -->
+                            <ul class="about-info pt-5">
+                                <!-- <h3 class="display-6 my-5 pt-5 text-center">Bio</h3> -->
+                                <h3 class="display-5 pt-5 text-center">About</h3>
+
+                                <p class="text-light text-center biography">
+                                    I am hard-working, extroverted, goal driven and determined. I love a challenge as it
+                                    enables me to
+                                    use
+                                    my
+                                    problem-solving capabilities.
+                                    I am interested in the tech industry, because of my father, he is a software
+                                    developer, and he
+                                    motivated
+                                    and
+                                    inspired me to get into this line of work.
+
+                                </p>
+                            </ul>
+
                         </div>
                     </div>
                 </div>
@@ -120,20 +111,7 @@
 
 
             <br>
-            <ul class="about-info">
-                <h3 class="display-6 my-5 pt-5 text-center">Bio</h3>
-                <p class="text-light text-center biography">
-                    I am hard-working, extroverted, goal driven and determined. I love a challenge as it enables me to
-                    use
-                    my
-                    problem-solving capabilities.
-                    I am interested in the tech industry, because of my father, he is a software developer, and he
-                    motivated
-                    and
-                    inspired me to get into this line of work.
 
-                </p>
-            </ul>
             <div class="container">
                 <div class="row">
                     <div class="col-sm">
@@ -516,30 +494,29 @@
         <h3 class="display-5 my-5 pt-5 text-center">Contact me</h3>
         <div class="conform mt-5">
             <form class="requires-validation" novalidate action="https://formspree.io/f/xwkagzkg" method="post">
+                
+                    <h5 for="fname" class="ftext mb-1">First Name</h5>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+                    <div class="valid-feedback">First Name field is valid!</div>
+                    <div class="invalid-feedback">First Name field cannot be blank!</div>
 
-                <h5 for="fname" class="ftext mb-1">First Name</h5>
-                <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
-                <div class="valid-feedback">First Name field is valid!</div>
-                <div class="invalid-feedback">First Name field cannot be blank!</div>
+                    <h5 for="lname" class="ftext mb-1">Last Name</h5>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+                    <div class="valid-feedback">Last Name field is valid!</div>
+                    <div class="invalid-feedback">Last Name field cannot be blank!</div>
 
-                <h5 for="lname" class="ftext mb-1">Last Name</h5>
-                <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
-                <div class="valid-feedback">Last Name field is valid!</div>
-                <div class="invalid-feedback">Last Name field cannot be blank!</div>
+                    <h5 for="subject" class="ftext mb-3">Message</h5>
+                    <textarea id="subject" name="subject" placeholder="Write something.." required
+                        style="height:200px"></textarea>
+                    <div class="invalid-feedback">Message field cannot be blank!</div>
 
-                <h5 for="subject" class="ftext mb-3">Message</h5>
-                <textarea id="subject" name="subject" placeholder="Write something.." required
-                    style="height:200px"></textarea>
-                <div class="invalid-feedback">Message field cannot be blank!</div>
-
-                <div class="form-check">
-                    <input class="form-check-input mt-3" type="checkbox" value="" id="invalidCheck" required>
-                    <label class="form-check-label mt-3" style="color: #568259;">I confirm that all data are
-                        correct</label>
-                    <div class="invalid-feedback">Please confirm that the entered data are all correct!</div>
-                </div>
-                <input id="submit" type="submit" value="Send">
-
+                    <div class="form-check">
+                        <input class="form-check-input mt-3" type="checkbox" value="" id="invalidCheck" required>
+                        <label class="form-check-label mt-3" style="color: #568259;">I confirm that all data are
+                            correct</label>
+                        <div class="invalid-feedback">Please confirm that the entered data are all correct!</div>
+                    </div>
+                    <input id="submit" type="submit" value="Send">
             </form>
         </div>
     </section>
