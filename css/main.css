@@ -59,7 +59,7 @@ span.navbar-toggler-icon{
 }
 
 .licons{
-    margin-left: 30px;
+    margin-left: 37px;
 }
 
 footer{
@@ -78,6 +78,7 @@ h3{
 
 #landtext{
     margin-bottom: 22%;
+    margin-left: 4px;
 }
 
 #landtext span{
@@ -100,10 +101,11 @@ h3{
         border-radius: 0%;
     }
     .licons{
-        margin-left: 0%;
+        margin-left: 3%;
     }
     #landtext{
         margin-bottom: 0%;
+        margin-left: 0px;
     }
     
     #landtext span{
